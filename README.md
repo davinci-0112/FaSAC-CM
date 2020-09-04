@@ -33,7 +33,7 @@ sudo pip3 install adafruit-circuitpython-bh1750
 # Blynk relay
 ```
 git clone https://github.com/WiringPi/WiringPi.git
-cd wiringPi
+cd WiringPi
 ./build
 git clone https://github.com/blynkkk/blynk-library.git
 cd blynk-library/linux
