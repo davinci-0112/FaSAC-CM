@@ -6,7 +6,7 @@ sudo apt-get install libgpiod2
 
 # DS18b20
 sudo raspi-config
-# Select Interfacing Options
+#Select Interfacing Options
 # Select 1-Wire
 # Select Yes
 sudo reboot
