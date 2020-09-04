@@ -5,18 +5,24 @@ pip3 install adafruit-circuitpython-dht
 sudo apt-get install libgpiod2
 
 # DS18b20
+```py
 sudo raspi-config
-#Select Interfacing Options
-# Select 1-Wire
-# Select Yes
+```
+Select Interfacing Options
+Select 1-Wire
+Select Yes
+```
 sudo reboot
 lsmod | grep -i w1_
+```
 
 # BH1750
+```
 sudo raspi-config
-# Select Interfacing Options
-# Select i2c
-# Select Yes
+```
+Select Interfacing Options
+Select i2c
+Select Yes
 sudo reboot
 sudo pip3 install adafruit-circuitpython-bh1750
 
